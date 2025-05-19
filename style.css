@@ -25,8 +25,8 @@ body {
 .display {
   height: 80px;
   width: 100%;
-  outline: color pink;
-  border: black;
+  outline: 2px solid pink;
+  border: 2px solid #ff69b4; 
   text-align: right;
   margin-bottom: 10px;
   font-size: 25px;
