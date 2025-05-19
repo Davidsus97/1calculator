@@ -28,6 +28,7 @@ body {
   outline: 2px solid pink;
   border: 2px solid #ff69b4; 
   text-align: right;
+  padding-right: 10px;
   margin-bottom: 10px;
   font-size: 25px;
   color: #000e1a;
