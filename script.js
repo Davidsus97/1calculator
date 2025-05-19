@@ -19,7 +19,7 @@ const calculate = (btnValue) => {
     if (output === "" && specialChars.includes(btnValue)) return;
     output += btnValue;
   }
-  display.value = output;
+  display.value = output || "0";
 };
 
 //Add event listener to buttons, call calculate() on click.
@@ -27,3 +27,5 @@ buttons.forEach((button) => {
   //Button click listener calls calculate() with dataset value as argument.
   button.addEventListener("click", (e) => calculate(e.target.dataset.value));
 });
+
+display.value = "0";
